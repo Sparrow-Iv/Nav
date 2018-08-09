@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Создано в ознакомительных целях. Vorobyev Ivan." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="608" width="335" height="39"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="loadscreen" translatesAutoresizingMaskIntoConstraints="NO" id="TMp-le-O7E">
+                    <rect key="frame" x="44" y="89" width="233" height="214"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647059999998" green="0.9199031983" blue="0.90451294670000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TMp-le-O7E" secondAttribute="trailing" constant="43" id="AZ8-Mc-tKG"/>
+                <constraint firstAttribute="centerX" secondItem="TMp-le-O7E" secondAttribute="centerX" id="DCa-fp-LpE"/>
+                <constraint firstItem="TMp-le-O7E" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="44" id="Ep8-m3-cwg"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" symbolic="YES" id="Kzo-t9-V3l"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstAttribute="centerY" secondItem="TMp-le-O7E" secondAttribute="centerY" constant="44" id="YUf-bR-GHk"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstAttribute="bottomMargin" secondItem="TMp-le-O7E" secondAttribute="bottom" constant="177" id="jFN-XM-xTj"/>
+                <constraint firstItem="TMp-le-O7E" firstAttribute="top" relation="lessThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="138" id="rWX-jq-t3E"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="DCa-fp-LpE"/>
+                    <exclude reference="YUf-bR-GHk"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="380.5" y="374.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loadscreen" width="490" height="425"/>
+    </resources>
+</document>
